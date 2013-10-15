@@ -2,7 +2,7 @@
 
 package Archive::TAP::Convert;
 {
-  $Archive::TAP::Convert::VERSION = '0.005';
+  $Archive::TAP::Convert::VERSION = '0.006';
 }
 
 use strict;
@@ -89,7 +89,7 @@ Archive::TAP::Convert - Read from a TAP archive and convert it for displaying
 
 =head1 VERSION
 
-version 0.005
+version 0.006
 
 =head1 SYNOPSIS
 
@@ -104,7 +104,9 @@ version 0.005
 
 =head1 ABOUT
 
-This modul can be of help for you if you have TAP archives (e.g. created with C<prove -a> and now you wish to have the content of this archives in a special format like HTML or JUnit (or whatever format).
+This is a software library for the I<perl programming language>.
+
+The modul can be of help for you if you have TAP archives (e.g. created with C<prove -a> and now you wish to have the content of this archives in a special format like HTML or JUnit (or whatever format).
 
 =head1 EXPORTED METHODS
 
