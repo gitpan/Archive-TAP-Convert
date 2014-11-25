@@ -1,5 +1,7 @@
 Revision history for Archive-TAP-Convert
 
+0.007     2014-11-25 21:27:32+01:00 Europe/Zurich
+
 0.007     2014-11-25 18:20:57+01:00 Europe/Zurich (TRIAL RELEASE)
           - accepts formatter object as an option (thx to maspalio)
           - corrected head title in Changes file

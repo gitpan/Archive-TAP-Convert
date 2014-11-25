@@ -1,7 +1,7 @@
 # ABSTRACT: Read from a TAP archive and convert it for displaying
 
 package Archive::TAP::Convert;
-$Archive::TAP::Convert::VERSION = '0.007'; # TRIAL
+$Archive::TAP::Convert::VERSION = '0.007';
 use strict;
 use warnings;
 
@@ -134,7 +134,7 @@ The modul can be of help for you if you have TAP archives (e.g. created with C<p
 The method takes three arguments.
 Only C<archive> is required.
 It takes the B<full> path to your TAP archive.
-The C<formatter> defaults to C<TAP::Formatter::HTML>, but you can give any other formatter.
+The C<formatter> defaults to C<TAP::Formatter::HTML>, but you can define any other formatter by string or even pass a reference to an existing formatter-object.
 The method will return the content of the TAP archive, parsed according to the formatter you have specified.
 
  my $html = convert_from_taparchive(
@@ -169,6 +169,16 @@ Used in this module: L<Test::Harness>
 =item *
 
 Available formatters: L<TAP::Formatter::Base> and its implementations for L<HTML|TAP::Formatter::HTML>, L<JUnit|TAP::Formatter::JUnit> or L<Console|TAP::Formatter::Console>.
+
+=back
+
+=head1 CONTRIBUTORS
+
+=over
+
+=item *
+
+Xavier Caron (XAV / maspalio)
 
 =back
 
